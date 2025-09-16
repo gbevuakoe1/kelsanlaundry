@@ -10,6 +10,9 @@
     font-family: "Poppins", sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
 nav{
     display: flex;
     align-items: center;
@@ -82,6 +85,18 @@ nav{
 
 .hero-section .hero-content p{
     color: whitesmoke;
+}
+
+.cta-btn{
+    margin: 30px 0;
+    padding: 10px 20px;
+    background-color: tomato;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
 }
 
 /* Services Section */
@@ -199,6 +214,49 @@ button {
     bottom: 60px;
     right: 30px;
 }
+
+
+   /* poster */
+
+   .poster-section{
+    margin: 60px 20px;
+    background-color: rgba(240, 217, 217, 0.384);
+
+   }
+
+   .poster-section .poster-container{
+    max-width: 1200px;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 40px;
+   }
+
+   .poster-section .poster-container p:first-of-type{
+    font-size: 16px;
+    margin-bottom: 15px;
+   }
+
+   .poster-section .poster-container p:last-of-type{
+    font-size: 32px;
+    margin-bottom: 15px;
+    font-weight: 500;
+   }
+
+   .poster-section .poster-container i{
+    display: block;
+    margin: 20px 0 30px 80px;
+   }
+
+   .poster-section .poster-container img{
+    width: 100%;
+    object-fit: contain;
+   }
+
+   
 
 footer{
     display: flex;
@@ -528,6 +586,10 @@ footer .copyright{
     border-radius: 4px;
     font-size: 16px;
 }
+
+
+
+
 
 
 
