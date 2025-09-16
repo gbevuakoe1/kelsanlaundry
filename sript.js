@@ -8,3 +8,15 @@ openBtn.addEventListener("click", () =>{
 closeBtn.addEventListener("click", () =>{
     links.classList.remove("menu-open")
 });
+
+
+window.addEventListener("scroll", () => {
+    navbar = document.getElementById("navbar");
+
+    if(window.scrollY > 100){
+        navbar.classList.add("nav-fixed");
+    }
+    else{
+        navbar.classList.remove("nav-fixed")
+    }
+});
