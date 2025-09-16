@@ -99,7 +99,25 @@ footer{
     margin-left: 20px;
 }
 
+
+.poster-section .poster-container{
+    flex-direction: column;
+    gap: 20px;
 }
+
+.poster-section .poster-container .poster-left{
+    text-align: center;
+    margin: 20px;
+}
+
+.poster-section .poster-container p:last-of-type{
+    font-size: 24px;
+}
+.poster-section .poster-container .poster-left i{
+    display: none;
+}
+}
+
 
 
 /* 600px for mobile phones */
